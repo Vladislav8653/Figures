@@ -1,0 +1,139 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0-windows7.0": {
+      "Base/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Base.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Base.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "BaseFigures/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Base": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BaseFigures.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BaseFigures.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "Figures4/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "BaseFigures": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Figures4.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Figures4.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "Base/1.0.0": {
+      "type": "project",
+      "path": "../Base/Base.csproj",
+      "msbuildProject": "../Base/Base.csproj"
+    },
+    "BaseFigures/1.0.0": {
+      "type": "project",
+      "path": "../BaseFigures/BaseFigures.csproj",
+      "msbuildProject": "../BaseFigures/BaseFigures.csproj"
+    },
+    "Figures4/1.0.0": {
+      "type": "project",
+      "path": "../Figures4/Figures4.csproj",
+      "msbuildProject": "../Figures4/Figures4.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0-windows7.0": [
+      "Figures4 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Владислав\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\archieve\\4_semestr\\OOP\\lab6+\\UserArchievePlugin\\UserArchievePlugin.csproj",
+      "projectName": "UserArchievePlugin",
+      "projectPath": "D:\\archieve\\4_semestr\\OOP\\lab6+\\UserArchievePlugin\\UserArchievePlugin.csproj",
+      "packagesPath": "C:\\Users\\Владислав\\.nuget\\packages\\",
+      "outputPath": "D:\\archieve\\4_semestr\\OOP\\lab6+\\UserArchievePlugin\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Владислав\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "projectReferences": {
+            "D:\\archieve\\4_semestr\\OOP\\lab6+\\Figures4\\Figures4.csproj": {
+              "projectPath": "D:\\archieve\\4_semestr\\OOP\\lab6+\\Figures4\\Figures4.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0-windows7.0": {
+        "targetAlias": "net7.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

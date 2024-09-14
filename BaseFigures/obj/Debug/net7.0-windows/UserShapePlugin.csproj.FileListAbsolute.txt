@@ -1,0 +1,15 @@
+D:\4_semestr\OOP\lab4\UserShapePlugin\obj\Debug\net7.0-windows\UserShapePlugin.GeneratedMSBuildEditorConfig.editorconfig
+D:\4_semestr\OOP\lab4\UserShapePlugin\obj\Debug\net7.0-windows\UserShapePlugin.AssemblyInfoInputs.cache
+D:\4_semestr\OOP\lab4\UserShapePlugin\obj\Debug\net7.0-windows\UserShapePlugin.AssemblyInfo.cs
+D:\4_semestr\OOP\lab4\UserShapePlugin\obj\Debug\net7.0-windows\UserShapePlugin.csproj.CoreCompileInputs.cache
+D:\4_semestr\OOP\lab4\UserShapePlugin\bin\Debug\net7.0-windows\UserShapePlugin.deps.json
+D:\4_semestr\OOP\lab4\UserShapePlugin\bin\Debug\net7.0-windows\UserShapePlugin.dll
+D:\4_semestr\OOP\lab4\UserShapePlugin\bin\Debug\net7.0-windows\UserShapePlugin.pdb
+D:\4_semestr\OOP\lab4\UserShapePlugin\bin\Debug\net7.0-windows\Base.dll
+D:\4_semestr\OOP\lab4\UserShapePlugin\bin\Debug\net7.0-windows\Base.pdb
+D:\4_semestr\OOP\lab4\UserShapePlugin\obj\Debug\net7.0-windows\UserShapePlugin.csproj.AssemblyReference.cache
+D:\4_semestr\OOP\lab4\UserShapePlugin\obj\Debug\net7.0-windows\UserShap.83604086.Up2Date
+D:\4_semestr\OOP\lab4\UserShapePlugin\obj\Debug\net7.0-windows\UserShapePlugin.dll
+D:\4_semestr\OOP\lab4\UserShapePlugin\obj\Debug\net7.0-windows\refint\UserShapePlugin.dll
+D:\4_semestr\OOP\lab4\UserShapePlugin\obj\Debug\net7.0-windows\UserShapePlugin.pdb
+D:\4_semestr\OOP\lab4\UserShapePlugin\obj\Debug\net7.0-windows\ref\UserShapePlugin.dll

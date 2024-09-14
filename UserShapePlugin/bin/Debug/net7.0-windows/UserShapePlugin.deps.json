@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "UserShapePlugin/1.0.0": {
+        "dependencies": {
+          "Base": "1.0.0"
+        },
+        "runtime": {
+          "UserShapePlugin.dll": {}
+        }
+      },
+      "Base/1.0.0": {
+        "runtime": {
+          "Base.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UserShapePlugin/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Base/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "UserArchievePlugin/1.0.0": {
+        "dependencies": {
+          "Figures4": "1.0.0"
+        },
+        "runtime": {
+          "UserArchievePlugin.dll": {}
+        }
+      },
+      "Base/1.0.0": {
+        "runtime": {
+          "Base.dll": {}
+        }
+      },
+      "Figures4/1.0.0": {
+        "dependencies": {
+          "Base": "1.0.0"
+        },
+        "runtime": {
+          "Figures4.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UserArchievePlugin/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Base/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Figures4/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
